@@ -2,11 +2,32 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>CodeFactory, LLC.</Authors>
+    <Company>CodeFactory, LLC.CodeFactory, LLC.</Company>
+    <Product>Code Factory Markup Adapter</Product>
+    <Copyright>Copyright 2020 CodeFactory, LLC.</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/CodeFactoryLLC/CodeFactory.Markup.Adapter</PackageProjectUrl>
+    <Description>Adapter pattern implementation used to migrate markup tags from one format to another. Use with code migration and pattern transformation for applications.</Description>
+    <RepositoryUrl>https://github.com/CodeFactoryLLC/CodeFactory.Markup.Adapter.git</RepositoryUrl>
+    <PackageTags>Markup CodeFactory</PackageTags>
+    <PackageReleaseNotes>Initial release of the adapter pattern.</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.20288.1</FileVersion>
+    <Version>1.0.20288</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Collections.Immutable" Version="1.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
